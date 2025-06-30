@@ -475,91 +475,102 @@
 
           <!-- CONTACTO -->
           <section id="contact" class="animated-section">
-            <div class="page-title">
-              <h2>Contacto</h2>
-            </div>
-            <div class="section-content">
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="lm-info-block gray-default">
-                    <i class="lnr lnr-map-marker"></i>
-                    <h4>Argentina</h4>
-                    <p>Villa General Belgrano, Córdoba</p>
-                  </div>
-                  <div class="lm-info-block gray-default">
-                    <a
-                      href="https://api.whatsapp.com/send?phone=5493546512250&amp;text=Hola+Augusto+"
-                      target="_blank"
-                      rel="noopener"
-                    >
-                      <i class="fab fa-whatsapp"></i>
-                      <h4>WhatsApp</h4>
-                      <p>3546-512250</p>
-                    </a>
-                  </div>
-                  <div class="lm-info-block gray-default">
-                    <i class="lnr lnr-envelope"></i>
-                    <h4>Email</h4>
-                    <p><a href="mailto:augustovillaabrille@gmail.com">augustovillaabrille@gmail.com</a></p>
-                  </div>
-                </div>
+  <div class="page-title">
+    <h2>Contacto</h2>
+  </div>
+  <div class="section-content">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="lm-info-block gray-default">
+          <i class="lnr lnr-map-marker"></i>
+          <h4>Argentina</h4>
+          <p>Villa General Belgrano, Córdoba</p>
+        </div>
+        <div class="lm-info-block gray-default">
+          <a
+            href="https://api.whatsapp.com/send?phone=5493546512250&amp;text=Hola+Augusto+"
+            target="_blank"
+            rel="noopener"
+          >
+            <i class="fab fa-whatsapp"></i>
+            <h4>WhatsApp</h4>
+            <p>3546-512250</p>
+          </a>
+        </div>
+        <div class="lm-info-block gray-default">
+          <i class="lnr lnr-envelope"></i>
+          <h4>Email</h4>
+          <p><a href="mailto:augustovillaabrille@gmail.com">augustovillaabrille@gmail.com</a></p>
+        </div>
+      </div>
 
-                <div class="col-sm-8">
-                  <h3 class="block-title">
-                    ¿Cómo puedo <span>ayudarte?</span>
-                  </h3>
+      <div class="col-sm-8">
+        <h3 class="block-title">
+          ¿Cómo puedo <span>ayudarte?</span>
+        </h3>
 
-                  <form id="contact_form" class="contact-form" novalidate>
-                    <div class="form-group">
-                      <label for="form_name">Nombre completo</label>
-                      <input
-                        id="form_name"
-                        type="text"
-                        name="name"
-                        class="form-control"
-                        placeholder="Ingresa tu nombre completo"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="form_email">Correo electrónico</label>
-                      <input
-                        id="form_email"
-                        type="email"
-                        name="email"
-                        class="form-control"
-                        placeholder="ejemplo@dominio.com"
-                        required
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="form_subject">Asunto</label>
-                      <input
-                        id="form_subject"
-                        type="text"
-                        name="subject"
-                        class="form-control"
-                        placeholder="Asunto de tu mensaje"
-                        required
-                                           />
-                    </div>
-                    <div class="form-group">
-                      <label for="form_message">Mensaje</label>
-                      <textarea
-                        id="form_message"
-                        name="message"
-                        class="form-control"
-                        rows="6"
-                        placeholder="Escribe tu mensaje aquí"
-                        required
-                      ></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </section> <!-- Cierre contacto -->
+        <form id="contact_form" class="contact-form" novalidate action="https://formspree.io/f/mvgrlaqb" method="POST">
+          <div class="form-group">
+            <label for="form_name">Nombre completo</label>
+            <input
+              id="form_name"
+              type="text"
+              name="name" class="form-control"
+              placeholder="Ingresa tu nombre completo"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="form_email">Correo electrónico</label>
+            <input
+              id="form_email"
+              type="email"
+              name="email" class="form-control"
+              placeholder="ejemplo@dominio.com"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="form_subject">Asunto</label>
+            <input
+              id="form_subject"
+              type="text"
+              name="subject" class="form-control"
+              placeholder="Asunto de tu mensaje"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="form_message">Mensaje</label>
+            <textarea
+              id="form_message"
+              name="message" class="form-control"
+              rows="6"
+              placeholder="Escribe tu mensaje aquí"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> ```
+
+---
+
+### Pasos Siguientes para que Funcione:
+
+1.  **Reemplaza el código:** Copia el bloque HTML que te di arriba y reemplaza la sección de `` en tu archivo `index.html`.
+2.  **Guarda los cambios:** Guarda tu archivo `index.html`.
+3.  **Sube a GitHub:** Realiza un commit y push de estos cambios a tu repositorio de GitHub Pages.
+4.  **Primer envío y confirmación:**
+    * Una vez que los cambios estén desplegados en tu GitHub Page (puede tomar un par de minutos), ve a tu CV en vivo.
+    * **Envía un mensaje de prueba** a través del formulario.
+    * **IMPORTANTE:** La primera vez que alguien (o tú) envíe un mensaje a tu URL de Formspree (`https://formspree.io/f/mvgrlaqb`), Formspree te enviará un **correo de confirmación** a `augustovillaabrille@gmail.com`. Debes abrir ese correo y **hacer clic en el enlace para verificar y activar el formulario**. Sin esta confirmación, Formspree no reenviará los mensajes.
+5.  **¡Listo!** Después de la confirmación, cada vez que alguien use el formulario en tu CV de GitHub Pages, recibirás el mensaje directamente en tu bandeja de entrada de `augustovillaabrille@gmail.com`.
+
+Con estos pasos, tendrás un formulario de contacto completamente funcional en tu currículum online. Si tienes alguna otra pregunta durante el proceso, ¡no dudes en consultarme!
 
         </div> <!-- Cierre animated-sections -->
       </div> <!-- Cierre content-area -->
